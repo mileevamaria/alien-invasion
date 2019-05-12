@@ -22,6 +22,9 @@ def run_game():
         # Watch for events
         gf.check_events(ship)
 
+        # Reacting on keypress' events
+        ship.update()
+
         # Redraw the screen during each pass through the loop and make in visible
         gf.update_screen(ai_settings, screen, ship)
 
