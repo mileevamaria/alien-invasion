@@ -12,9 +12,13 @@ def check_events(ship):
         elif event.type == pygame.KEYDOWN:  # When player press on the keyboard
             if event.key == pygame.K_RIGHT:  # When player press "right" arrow key
                 ship.moving_right = True
+            elif event.key == pygame.K_LEFT:  # When player press "left" arrow key
+                ship.moving_right = True
 
-        elif event.type == pygame.KEYUP:  # When player press on the keyboard
+        elif event.type == pygame.KEYUP:  # ???
             if event.key == pygame.K_RIGHT:  # When player press "right" arrow key
+                ship.moving_right = False
+            elif event.key == pygame.K_LEFT:  # When player press "left" arrow key
                 ship.moving_right = False
 
 
