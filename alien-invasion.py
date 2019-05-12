@@ -23,7 +23,7 @@ def run_game():
 
         # Watch for events
 
-        gf.check_events()
+        gf.check_events(ship)
 
         # Redraw the screen during each pass through the loop and make in visible
 
