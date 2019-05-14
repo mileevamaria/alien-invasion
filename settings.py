@@ -13,7 +13,7 @@ class Settings:
         self.ship_speed_factor = 1.5  # Adjusting the ship's speed
 
         # Bullets settings
-        self.bullet_speed_factor = 1
+        self.bullet_speed_factor = 3
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = 200, 0, 0
