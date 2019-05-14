@@ -4,7 +4,9 @@
     <list default="true" id="adfaae92-8c4e-4f54-a3fd-da6b17656795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alien-invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien-invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alien-invasion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="236">
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
               </folding>
@@ -26,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alien.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="281">
+              <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -38,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="407">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -53,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="375">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -97,8 +99,8 @@
       <list>
         <option value="$PROJECT_DIR$/ship.py" />
         <option value="$PROJECT_DIR$/bullet.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/alien.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/game_functions.py" />
         <option value="$PROJECT_DIR$/alien-invasion.py" />
       </list>
@@ -301,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557873246205</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added extra rows for the fleet of aliens">
+      <created>1557874090651</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557874090651</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -342,7 +351,8 @@
     <MESSAGE value="Creating the fleet of aliens" />
     <MESSAGE value="Refactoring of create_fleet()" />
     <MESSAGE value="Added moving for alien fleet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added moving for alien fleet" />
+    <MESSAGE value="Added extra rows for the fleet of aliens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added extra rows for the fleet of aliens" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pygame/sprite.py">
@@ -376,39 +386,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
+    <entry file="file://$PROJECT_DIR$/alien.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="281">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game_functions.py">
+    <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alien-invasion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="236">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alien.py">
+    <entry file="file://$PROJECT_DIR$/game_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="407">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

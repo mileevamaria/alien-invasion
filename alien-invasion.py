@@ -31,7 +31,7 @@ def run_game():
         # Reacting on keypress' events
         ship.update()
         gf.update_bullets(bullets)
-        gf.update_aliens(aliens)
+        gf.update_aliens(ai_settings, aliens)
 
         # Redraw the screen during each pass through the loop and make in visible
         gf.update_screen(ai_settings, screen, ship, aliens, bullets)
