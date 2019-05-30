@@ -10,4 +10,5 @@ Project-game based on "Python Crash Course" by E.Matthes
 - If any alien hits the player's ship or reaches the bottom of the screen, the player loses a ship. 
 - If the player losses three ships, the game ends.
 
+
 ![](https://github.com/mileevamaria/alien-invasion/blob/master/img/alien-invasion.png)
